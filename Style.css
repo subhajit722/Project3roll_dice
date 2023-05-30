@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: grid;
+   justify-content: center;
+
+    background-color: crimson;
+}
+.main{
+    position: relative;
+    margin-top: 200px;
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    border: 2px;
+    justify-content: center;
+   
+}
+
+.contron{
+    position: absolute;
+    z-index: 3;
+    display: grid;
+   
+    
+}
+.b{
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 80px;
+    
+}
+.bord{
+    z-index: 1;
+    display: grid;
+    width: 500px;
+    height: 500px;
+   justify-items: center;
+    align-items: center;
+    border: 1px  saddlebrown;
+    background-color: bisque;
+  
+}
+.bu{
+    display: none;
+    width: 500px;
+    height: 500px;
+   justify-items: center;
+    align-items: center;
+}
+.score{
+    
+    font-size: 40px;
+}
+.current{
+    display: grid;
+    justify-items: center;
+    width: 180px;
+    height: 100px;
+    background-color:#dc143c;
+    border-radius: 40px;
+    color: white;
+    font-size: 20px;
+
+}
+.p2{
+    border-left: 1px solid black
+}
+.p1{
+    border-right: 1px saddlebrown;
+}
+.im{
+    margin-top: 40px;
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    
+    background-size: contain;
+}
+.win{
+    display: grid;
+    z-index: 2;
+    width: 1000px;
+    height: 500px;
+    font-size: 40px;
+    justify-content: center;
+
+    background-color: greenyellow;
+
+}
+.hide{
+    display: none;
+}
